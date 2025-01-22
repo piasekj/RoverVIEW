@@ -1,0 +1,1 @@
+/home/rafal/TrailblazerML/build/gazebo_viz/launch/camera.launch.py
