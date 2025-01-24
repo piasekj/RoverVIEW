@@ -1,0 +1,18 @@
+[1.080s] Invoking command in '/home/szaravy/RoverVIEW/TrailblazerML/build/rover_teleop_twist_joy': PYTHONPATH=/home/szaravy/RoverVIEW/TrailblazerML/build/rover_teleop_twist_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/szaravy/RoverVIEW/TrailblazerML/install/rover_teleop_twist_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/szaravy/RoverVIEW/TrailblazerML/build/rover_teleop_twist_joy/build --no-deps symlink_data
+[1.321s] running develop
+[1.473s] running egg_info
+[1.474s] writing rover_teleop_twist_joy.egg-info/PKG-INFO
+[1.474s] writing dependency_links to rover_teleop_twist_joy.egg-info/dependency_links.txt
+[1.474s] writing entry points to rover_teleop_twist_joy.egg-info/entry_points.txt
+[1.474s] writing requirements to rover_teleop_twist_joy.egg-info/requires.txt
+[1.475s] writing top-level names to rover_teleop_twist_joy.egg-info/top_level.txt
+[1.477s] reading manifest file 'rover_teleop_twist_joy.egg-info/SOURCES.txt'
+[1.477s] writing manifest file 'rover_teleop_twist_joy.egg-info/SOURCES.txt'
+[1.479s] running build_ext
+[1.479s] Creating /home/szaravy/RoverVIEW/TrailblazerML/install/rover_teleop_twist_joy/lib/python3.10/site-packages/rover-teleop-twist-joy.egg-link (link to .)
+[1.480s] Installing teleop_twist_node script to /home/szaravy/RoverVIEW/TrailblazerML/install/rover_teleop_twist_joy/lib/rover_teleop_twist_joy
+[1.480s] 
+[1.480s] Installed /home/szaravy/RoverVIEW/TrailblazerML/build/rover_teleop_twist_joy
+[1.480s] running symlink_data
+[1.481s] symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/build/rover_teleop_twist_joy/resource/rover_teleop_twist_joy -> /home/szaravy/RoverVIEW/TrailblazerML/install/rover_teleop_twist_joy/share/ament_index/resource_index/packages
+[1.481s] error: [Errno 17] File exists: '/home/szaravy/RoverVIEW/TrailblazerML/build/rover_teleop_twist_joy/resource/rover_teleop_twist_joy' -> '/home/szaravy/RoverVIEW/TrailblazerML/install/rover_teleop_twist_joy/share/ament_index/resource_index/packages/rover_teleop_twist_joy'
