@@ -1,20 +1,15 @@
 #!/bin/bash
 
-# Open a persistent TCP connection
-exec 3<>/dev/tcp/127.0.0.1/12346
+# Ścieżka do pliku
+output_file="output.txt"
 
-# Source ROS setup files
-source /opt/ros/humble/setup.bash
-source /home/szaravy/TrailblazerML/install/local_setup.bash
+# Tworzenie (lub wyczyszczenie) pliku
+> "$output_file"
 
-# Publish ROS messages and redirect output to TCP socket
-ros2 topic echo /diff_drive_controller_left/odom | awk '/linear:/ {getline; print $2}' | \
-while read -r line; do 
-    echo "$line" >&3
+# Nadpisywanie pierwszej linii pliku wynikami z ROS
+ros2 topic echo /diff_drive_controller_left/odom | \
+awk '/linear:/ {getline; printf "%.6f\n", $2}' | \
+while read -r line; do
+    # Nadpisanie pierwszej linii w pliku
+    sed -i "1s/.*/$line/" "$output_file"
 done
-
-# Keep the script running until manually stopped
-wait
-
-# Close the connection when the script exits
-exec 3>&-
