@@ -1,15 +1,19 @@
 #!/bin/bash
 
-# Ścieżka do pliku
-output_file="output.txt"
+source /opt/ros/humble/setup.bash
+source /home/szaravy/TrailblazerML/install/local_setup.bash
+
+# Ścieżka do pliku wyjściowego
+output_file="outputLeft.txt"
 
 # Tworzenie (lub wyczyszczenie) pliku
 > "$output_file"
 
-# Nadpisywanie pierwszej linii pliku wynikami z ROS
+# Odczyt danych z ROS i zapis ostatniej linii do pliku
 ros2 topic echo /diff_drive_controller_left/odom | \
 awk '/linear:/ {getline; printf "%.6f\n", $2}' | \
 while read -r line; do
-    # Nadpisanie pierwszej linii w pliku
-    sed -i "1s/.*/$line/" "$output_file"
+    # Nadpisanie zawartości pliku nową linią
+    echo "$line" > "$output_file"
 done
+
