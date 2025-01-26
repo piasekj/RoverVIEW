@@ -1,7 +1,15 @@
 #!/bin/bash
 
+user=$(whoami)
+home_dir="/home/$user"
+path_to_source="$home_dir/TrailblazerML/install/local_setup.bash"
+
+source_cmd="source $path_to_source"
+
+eval $source_cmd
+
 source /opt/ros/humble/setup.bash
-source /home/rafal/TrailblazerML/install/local_setup.bash
+# source /home/rafal/TrailblazerML/install/local_setup.bash
 
 # Ścieżka do pliku wyjściowego
 output_file="outputRight.txt"
