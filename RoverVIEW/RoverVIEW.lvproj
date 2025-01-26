@@ -17,7 +17,6 @@
 		<Item Name="keyboardInput.vi" Type="VI" URL="../keyboardInput.vi"/>
 		<Item Name="roverView.vi" Type="VI" URL="../roverView.vi"/>
 		<Item Name="tcp.vi" Type="VI" URL="../tcp.vi"/>
-		<Item Name="testing.vi" Type="VI" URL="../testing.vi"/>
 		<Item Name="vizualization.vi" Type="VI" URL="../vizualization.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
