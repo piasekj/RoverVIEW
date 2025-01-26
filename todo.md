@@ -1,0 +1,6 @@
+## TODO summarized from VIs
+
+- [ ] take out tcp part from ros movement scripts
+- [ ] fix data initialization so it starts directly from labview
+- [ ] make the stop button stop the whole program
+- [ ] fix so that pkill works when quitting the program

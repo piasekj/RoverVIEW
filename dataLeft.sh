@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source /opt/ros/humble/setup.bash
-source /home/szaravy/TrailblazerML/install/local_setup.bash
+source /home/rafal/TrailblazerML/install/local_setup.bash
 
 # Ścieżka do pliku wyjściowego
 output_file="outputLeft.txt"
