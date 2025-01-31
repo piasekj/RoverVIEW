@@ -12,7 +12,7 @@ source /opt/ros/humble/setup.bash
 # source /home/rafal/TrailblazerML/install/local_setup.bash
 
 # Ścieżka do pliku wyjściowego
-output_file="outputRight.txt"
+output_file="$home_dir/RoverVIEW/data/outputRight.txt"
 
 # Tworzenie (lub wyczyszczenie) pliku
 > "$output_file"

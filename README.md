@@ -13,7 +13,6 @@ Rover path simulation using ROS2 and LabVIEW.
 - [X] make the stop button stop the whole program
 - [X] fix so that pkill works when quitting the program
 - [ ] error handling in state machine (for data read initialization files)
-- [ ] pause feature in state machine
 
 #### gazeboLaunch.md
 
