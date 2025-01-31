@@ -1,6 +1,6 @@
 # TrailblazerML ROS2 Project
 
-This repository contains a ROS2-based project using the `humble` distribution. The project integrates simulation, visualization, teleoperation, and machine learning for autonomous robot navigation and control.
+This repository contains a ROS2-based project using the `humble` distribution. The project integrates simulation, visualization, teleoperation and control.
 
 ---
 
@@ -46,7 +46,6 @@ Follow the official [ROS2 Humble installation guide](https://docs.ros.org/en/hum
       ros-humble-ros2-controllers \
       ros-humble-gazebo-ros2-control \
       ros-humble-position-controllers \
-      ros-humble-controller-manager-spawner \
       ros-humble-xacro \
       joystick \
       jstest-gtk \
@@ -94,17 +93,3 @@ To control the robot manually:
     ```
    
 ---
-
-## Project Structure
-```plaintext
-src
-├── gazebo_viz                 # Core visualization and simulation package
-│   ├── config                 # Configuration files (RViz, controllers, etc.)
-│   ├── description            # Robot URDF and XACRO files
-│   ├── launch                 # Launch files for simulation
-│   ├── meshes                 # Robot 3D models
-│   ├── worlds                 # Gazebo simulation worlds
-├── rover_teleop_twist_joy     # Teleoperation package
-│   ├── launch                 # Launch files for teleop
-│   ├── rover_teleop_twist_joy # Teleop control scripts
-├── trailblazerml              # Main robot dir
