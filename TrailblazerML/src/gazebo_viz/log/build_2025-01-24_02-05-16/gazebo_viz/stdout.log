@@ -1,0 +1,63 @@
+running develop
+running egg_info
+creating gazebo_viz.egg-info
+writing gazebo_viz.egg-info/PKG-INFO
+writing dependency_links to gazebo_viz.egg-info/dependency_links.txt
+writing entry points to gazebo_viz.egg-info/entry_points.txt
+writing requirements to gazebo_viz.egg-info/requires.txt
+writing top-level names to gazebo_viz.egg-info/top_level.txt
+writing manifest file 'gazebo_viz.egg-info/SOURCES.txt'
+reading manifest file 'gazebo_viz.egg-info/SOURCES.txt'
+writing manifest file 'gazebo_viz.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/lib/python3.10/site-packages/gazebo-viz.egg-link (link to .)
+
+Installed /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz
+running symlink_data
+creating /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/ament_index
+creating /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/ament_index/resource_index
+creating /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/ament_index/resource_index/packages
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/resource/gazebo_viz -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/ament_index/resource_index/packages
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/package.xml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz
+creating /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/launch
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/launch/rplidar.launch.py -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/launch
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/launch/launch_sim.launch.py -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/launch
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/launch/joystick.launch.py -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/launch
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/launch/rsp.launch.py -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/launch
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/launch/ball_tracker.launch.py -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/launch
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/launch/localization_launch.py -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/launch
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/launch/online_async_launch.py -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/launch
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/launch/launch_robot.launch.py -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/launch
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/launch/navigation_launch.py -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/launch
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/launch/teleop_twist_keyboard.launch.py -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/launch
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/launch/camera.launch.py -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/launch
+creating /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/worlds
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/worlds/empty.world -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/worlds
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/worlds/obstacles.world -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/worlds
+creating /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/description
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/description/camera.xacro -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/description
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/description/face.xacro -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/description
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/description/robot_core.xacro -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/description
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/description/robot.urdf.xacro -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/description
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/description/lidar.xacro -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/description
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/description/depth_camera.xacro -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/description
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/description/gazebo_control.xacro -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/description
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/description/ros2_control.xacro -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/description
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/description/inertial_macros.xacro -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/description
+creating /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/config/joystick.yaml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/config/gaz_ros2_ctl_use_sim.yaml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/config/my_controllers_left.yaml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/config/ball_tracker_params_sim.yaml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/config/gazebo_params.yaml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/config/empty.yaml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/config/mapper_params_online_async.yaml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/config/ball_tracker_params_robot.yaml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/config/twist_mux.yaml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/config/my_controllers.yaml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/config/nav2_params.yaml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/config/my_controllers_right.yaml -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/config
+creating /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/meshes
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/meshes/body.stl -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/meshes
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/meshes/wheel_left.stl -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/meshes
+symbolically linking /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/build/gazebo_viz/meshes/wheel_right.stl -> /home/szaravy/RoverVIEW/TrailblazerML/src/gazebo_viz/install/gazebo_viz/share/gazebo_viz/meshes

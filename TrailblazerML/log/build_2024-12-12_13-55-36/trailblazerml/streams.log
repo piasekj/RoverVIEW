@@ -1,0 +1,18 @@
+[0.864s] Invoking command in '/home/rafal/TrailblazerML/build/trailblazerml': PYTHONPATH=/home/rafal/TrailblazerML/build/trailblazerml/prefix_override:/home/rafal/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafal/TrailblazerML/install/trailblazerml/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rafal/TrailblazerML/build/trailblazerml/build --no-deps symlink_data
+[1.056s] running develop
+[1.056s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.056s]   warnings.warn(
+[1.199s] running egg_info
+[1.199s] writing trailblazerml.egg-info/PKG-INFO
+[1.199s] writing dependency_links to trailblazerml.egg-info/dependency_links.txt
+[1.199s] writing entry points to trailblazerml.egg-info/entry_points.txt
+[1.199s] writing requirements to trailblazerml.egg-info/requires.txt
+[1.199s] writing top-level names to trailblazerml.egg-info/top_level.txt
+[1.201s] reading manifest file 'trailblazerml.egg-info/SOURCES.txt'
+[1.202s] writing manifest file 'trailblazerml.egg-info/SOURCES.txt'
+[1.203s] running build_ext
+[1.203s] Creating /home/rafal/TrailblazerML/install/trailblazerml/lib/python3.10/site-packages/trailblazerml.egg-link (link to .)
+[1.203s] 
+[1.203s] Installed /home/rafal/TrailblazerML/build/trailblazerml
+[1.203s] running symlink_data
+[1.237s] Invoked command in '/home/rafal/TrailblazerML/build/trailblazerml' returned '0': PYTHONPATH=/home/rafal/TrailblazerML/build/trailblazerml/prefix_override:/home/rafal/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafal/TrailblazerML/install/trailblazerml/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rafal/TrailblazerML/build/trailblazerml/build --no-deps symlink_data

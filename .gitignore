@@ -16,3 +16,6 @@
 *.aliases
 *.lvlps
 .cache/
+
+# MacOS turd files
+.DS_Store
